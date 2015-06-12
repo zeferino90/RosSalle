@@ -23,3 +23,6 @@ def set_heart_color(red, green, blue):
         res = heart_srv(req)
     except rospy.ServiceException, e:
         print "Service failed: {}".format(e)
+
+def heart_blink():
+    pass
