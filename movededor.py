@@ -66,6 +66,10 @@ def touch_rd(data):
                 touch = False
         print numtouch
 
+    elif data.left == True and data.right == True:
+        print "dos touch"
+        play_audio_file("/home/pi/grrr.mp3")
+
 
 
 rospy.init_node('servos')
